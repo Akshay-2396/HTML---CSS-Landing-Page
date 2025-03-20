@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Agency Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="https://cdn-icons-png.freepik.com/512/12862/12862063.png"
@@ -12,29 +13,93 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Volkhov:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!-- header section start -->
-     <div class="main">
-        <!-- nav bar start -->
-         <nav>
-            <div class="logo">Tarbook</div>
-            <img src="Assets/logo.svg" alt="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#" class="btn-light">Sign up</a></li>
-            </ul>
-         </nav>
-         <!-- nav bar end -->
-          
-     </div>
+    <header>
+    <div class="main">
+      <!-- nav bar start -->
+      <nav>
+        <div class="logo">Tarbook</div>
+        <div class="img"><img src="Assets/logo.svg" alt="logo" /></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="log">
+          <li><a href="#">Login</a></li>
+          <li><a href="#" class="btn-light">Sign up</a></li>
+        </ul>
+      </nav>
+      <!-- nav bar end -->
+      <!-- hero section start --> 
+      <div class="hero-section">
+        <div class="left">
+          <h1>
+            Get started your exciting <span> journey</span>
+            with us.
+          </h1>
+          <p>
+            A Team of experienced tourism professionals will provide you with
+            the best advice and tips for your <br />
+            desire place.
+          </p>
+          <button class="dis">Discover Now</button>
+        </div>
+        <div class="right">
+            <div class="hero-image1">
+                <img src="Assets/first set flight.svg" alt="flight" />
+          </div>
+          <div class="hero-image2">
+            <img src="Assets/Group 1000003524.png" alt="base" />
+            
+          </div>
+          <div class="achievement-cards">
+            <div class="content1">
+              <img src="Assets/trophy-removebg-preview 1.png" alt="trophy" />
+              <h3>Best Tour <br />Awards</h3>
+            </div>
+            <div class="bg"></div>
+            <div class="content2">
+              <img src="Assets/google-maps 1.png" alt="map" />
+
+              <p>
+                <span>Explore</span><br />Every corner of <br />the world with
+                us
+              </p>
+            </div>
+            <div class="bg"></div>
+            <div class="content3">
+              <img src="Assets/star 1 (1).png" alt="star" />
+              <p><span>27K </span><br />Customer Reviewed</p>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explorebox">
+      <h4>
+        Location<img src="Assets/dropdown.svg" alt="" />
+        <p>Where are you going</p>
+      </h4>
+      <h4>
+        Date <img src="Assets/dropdown.svg" alt="" />
+        <p>When you will go</p>
+      </h4>
+      <h4>
+        Guest <img src="Assets/dropdown.svg" alt="" />
+        <p>Number of guest</p>
+      </h4>
+      <button class="btn-light">Explore Now</button>
+    </div>
+</header>
+    <!-- header section end -->
   </body>
 </html>
