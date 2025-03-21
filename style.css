@@ -84,6 +84,7 @@ nav ul.log li a.btn-light{
     width: 130px;
     box-shadow: 0px 2px 5px var(--orange-color);
     color: #FEFCFB;
+    
 }
 .hero-section{
     display: flex;
@@ -225,6 +226,7 @@ nav ul.log li a.btn-light{
 .explorebox .btn-light{
     box-shadow: 0px 2px 5px var(--orange-color);
     color: #FEFCFB;
+    border-color: #f97316;
 }
 .achievement-cards .content1{
     display: flex;
@@ -436,5 +438,217 @@ nav ul.log li a.btn-light{
     top: 50px;
   }
 
+
+
+  .deals{
+    margin: 0 ;
+    width: 100%;
+    padding: 40px; 
+    background-color:#FEFCFB;
+  }
+  .content1 h1{
+    font-family: volkhov;
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+  margin-left: 400px;
   
+  }
+  .content1 h1 span{
+    color: #f97316;
+  }
+  .content1 p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    width: 456px;
+    margin-left: 440px;
+    line-height: 10px;
+  }
+  .content1 p span{
+    margin-left: 50px;
+    line-height: 30px;
+  }
+  .place{
+    display: flex;
+    transform: scale(0.7);
+    margin-top: -60px;
+    
+  }
+  /* image 1 */
+  .mad{
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    margin-right: 30px;
+    height: auto;
+    box-shadow: 0px 2px 2px black;
+  }
+   .mad .a2{
+       margin-top: -120px;
+         margin-left: 200px;
+    padding: 10px;
+  }
+  .mad .img-1 h1{
+    font-family: poppins;
+    font-weight:400;
+    font-size: 24px;
+    padding: 10px;
+    bottom: 10px;
+    position: relative;
+  }
+  .mad .a3{
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+    padding: 10px;
+    position: relative;
+  }
+   .mad .a1{
+    
+    margin-left: 5px;
+    margin-bottom: 10px;
+   margin-top: -10px;
+    padding: 10px;
+    bottom: 20px;
+    position: relative;
+  }
   
+  /* image 2*/
+  .mad2{
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    height: auto;
+    box-shadow: 0px 2px 10px var(--orange-color);
+  }
+
+  .mad2 .b2{
+    margin-top: -120px;
+      margin-left: 200px;
+ padding: 10px;
+}
+.mad2 .img-2 h1{
+ font-family: poppins;
+ font-weight:400;
+ font-size: 24px;
+ padding: 10px;
+ bottom: 10px;
+ position: relative;
+}
+.mad2 .b3{
+ display: flex;
+ gap: 10px;
+ margin-left: 150px;
+ padding: 10px;
+ position: relative;
+}
+.mad2 .b1{
+ 
+ margin-left: 5px;
+ margin-bottom: 10px;
+margin-top: -10px;
+ padding: 10px;
+ bottom: 20px;
+ position: relative;
+}
+  
+/* image 3*/
+
+.mad3{
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    margin-left: 20px;
+    height: auto;
+    box-shadow: 0px 2px 5px black;
+  }
+
+  .mad3 .c2{
+    margin-top: -120px;
+      margin-left: 200px;
+ padding: 10px;
+}
+.mad3 .img-3 h1{
+ font-family: poppins;
+ font-weight:400;
+ font-size: 24px;
+ padding: 10px;
+ bottom: 10px;
+ position: relative;
+}
+.mad3 .c3{
+ display: flex;
+ gap: 10px;
+ margin-left: 150px;
+ padding: 10px;
+ position: relative;
+}
+.mad3 .c1{
+ 
+ margin-left: 5px;
+ margin-bottom: 10px;
+margin-top: -10px;
+ padding: 10px;
+ bottom: 20px;
+ position: relative;
+}
+
+/* image4 */
+.mad4{
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    margin-left: 30px;
+    height: auto;
+    box-shadow: 0px 2px 5px black;
+  }
+
+  .mad4 .d2{
+    margin-top: -120px;
+      margin-left: 200px;
+ padding: 10px;
+}
+.mad4 .img-4 h1{
+ font-family: poppins;
+ font-weight:400;
+ font-size: 24px;
+ padding: 10px;
+ bottom: 10px;
+ position: relative;
+}
+.mad4 .d3{
+ display: flex;
+ gap: 10px;
+ margin-left: 150px;
+ padding: 10px;
+ position: relative;
+}
+.mad4 .d1{
+ 
+ margin-left: 5px;
+ margin-bottom: 10px;
+margin-top: -10px;
+ padding: 10px;
+ bottom: 20px;
+ position: relative;
+}
+.slider{
+margin-left: 449px;
+transform: scale(0.7);
+margin-bottom: 30px;
+margin-top: -30px;
+}
+
+.but .btn-light{
+    border-color: #f97316;
+    margin-top: -10px;
+    margin-bottom: -200px;
+    margin-left: 460px;
+    transform: scale(0.8);
+    top:-290px;
+    
+}
+.but .btn-light:hover{
+    background-color: #FA7436;
+    border-color: black;
+    transform: scale(1);
+}
