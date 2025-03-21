@@ -287,7 +287,154 @@ nav ul.log li a.btn-light{
     color: black;
     font-weight: bold;
 }
-.to-do{
-    border: 1px solid #FEFCFB;
-    margin: 300px;
-}
+
+  
+  
+  .container {
+   
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #F7F8FC;
+  }
+  .container .img1{
+   width: 200px;
+   margin-left: 1000px;
+    margin-top: -100px;
+  
+   }
+  .content {
+
+    flex: 1;
+    text-align: left;
+    margin-left: -80px;
+    margin-top: -150px;
+  }
+  
+  .content h1 {
+    font-family: volkhov;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    margin: 500px;
+    width: 600px;
+    margin-top: -150px;
+  }
+  
+  .content h1 span {
+    color: #f97316;
+  }
+  .container .content p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    width: 456px;
+    margin-top: -480px;
+    margin-left: 510px;
+   }
+   .container .content p span{
+   margin-left: 50px;
+   line-height: 30px;
+   }
+   
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    transform: scale(0.6);
+    width: 200px;
+    margin-left: -200px;
+    margin-top: 350px;
+    height: 300px;
+   
+  }
+  
+  .card1 {
+    background: white;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 450px;
+    margin-left: -1900px;
+    font-size: 16px;
+   background-image: url(Assets/Vector\ 4856.png);
+  }
+  .card1  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: -20px;
+    margin-top: -0.5px;
+   
+  }
+  
+  .card1 p {
+    width: 390px;
+    bottom: -1000px;
+    font-size: 16px;
+    color:black;
+    top: 50px;
+    
+  }
+  .card1 .v-1{
+    margin-top: 10px;
+    
+    
+  }
+  .card2{
+    background: white;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 450px;
+    background-image: url(Assets/Vector\ 4856\ \(1\).png);
+  }
+  .card2  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: -20px;
+    margin-top: -0.5px;
+   
+  }
+  
+  .card2 p {
+    width: 390px;
+    bottom: -1000px;
+    font-size: 16px;
+    color:black;
+    top: 50px;
+    
+  }
+
+  .card3{
+    background: white;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 450px;
+    background-image: url(Assets/Vector\ 4857.png);
+
+  }
+  
+  
+  .card3  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: -20px;
+    margin-top: -0.5px;
+
+  }
+  
+  .card3 p {
+    width: 450px;
+    bottom: -1000px;
+    font-size: 16px;
+    color:black;
+    top: 50px;
+  }
+
+  
+  
