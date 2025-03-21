@@ -1,8 +1,7 @@
 :root{
     --orange-color: #FA7436;
     --white-color: #FEFCFB;
-    --color: #CCCCCC;
-    --color:#F7F8FC;
+     --color:#F7F8FC;
 }
 *,
 *::after,
@@ -44,6 +43,8 @@ nav{
     padding: 36px 0;
     z-index: 100;
     transition: all 500ms ease;
+    
+   
 }
 
 .logo{
@@ -63,12 +64,16 @@ nav ul{
     list-style: none;
     margin: 0;
     right: -200px
+   
+
 }
 nav ul li a{
     font-weight: normal;
     font-size: 16px;
     color:black;
     text-decoration:none;
+    
+    
     
 }
 nav ul.log li a{
@@ -88,17 +93,19 @@ nav ul.log li a.btn-light{
     justify-content: space-between;
     padding-top: 60px;
     position: relative;
+    bottom: 60px;
 
 }
 .hero-section .left h1{
     font-family: "Volkhov",sans-serif;
     font-weight:bold;
     margin-bottom: 10px;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100%;
     color: black ;
     position: relative;
-    width: 405px;
+    width: 400px;
+    gap: 20px;
 }
 .hero-section .left h1 span{
     color: #FA7436;
@@ -110,6 +117,7 @@ nav ul.log li a.btn-light{
     line-height: 200%;
     margin-bottom: 200px;
     width: 400px;
+    bottom: -60px;
 }
 .hero-section .left .dis{
     padding: 16px 32px;
@@ -126,27 +134,35 @@ nav ul.log li a.btn-light{
 }
 .hero-section .right {
     position: relative;
+    margin-right: 100px;
+    bottom: 100px;
+   
   }
   
 .right .hero-image1 {
  
     padding-left: 120px;
-    width: auto;
+    width: 100%; 
+    height: 100%; 
     margin: 200px;
     margin-bottom: 250px;
-    margin-top: -200px;
-    height: -150px;
+    margin-top: -50px;
+    height: -60px;
     margin-left:-100px;
     margin-right: -220px;
     position: relative;
     bottom: 150px;
-    right: 20px;
-    
+    right: -100px;
+    transform: scale(0.8);
+ 
+     
 }
+
 .right .hero-image2 {
  
     padding-left: 120px;
-    width: auto;
+    width: -5%; 
+    height: 9px; 
     margin: 150px;
     margin-bottom: -200px;
     margin-top: -280px;
@@ -154,8 +170,9 @@ nav ul.log li a.btn-light{
     height: 200px;
     margin-left:-10px; 
     position: relative;
-    bottom: 265px;
-    right: -15px;
+    bottom: 272px;
+    right: -100px;
+    transform: scale(0.8);
 }
 
 
@@ -192,13 +209,17 @@ nav ul.log li a.btn-light{
 .explorebox {
     border: 1px solid #FEFCFB;
     box-shadow: 0px 2px 5px ;
-    margin-left: 300px;
+    margin-left: 160px;
     height: 85px;
-   margin-top: -10px;
-    width: 800px;
+   margin-top: -200px;
+    width: 1000px;
     padding: 40px 40px 20px;
     font-size: small;
     gap: 20px;
+    transform: scale(0.8);
+    
+    
+   
    
 }
 .explorebox .btn-light{
@@ -216,9 +237,10 @@ nav ul.log li a.btn-light{
     width: 160px;
     line-height: 15px;
      position: absolute;
-    left: 70px;
-    bottom: 140px;
+    left: 190px;
+    bottom: 120px;
     background: #FEFCFB;
+    transform: scale(0.8);
 }
 .achievement-cards .content2{
     display: flex;
@@ -231,9 +253,10 @@ nav ul.log li a.btn-light{
     width: 210px;
     line-height: 25px;
     position: absolute;
-    right: -50px;
+    right: -100px;
     bottom: -15px;
     background: #FEFCFB;
+    transform: scale(0.7);
 
 
 } 
@@ -254,12 +277,17 @@ nav ul.log li a.btn-light{
     line-height: 18px;
     padding: 5px;
     position: absolute;
-    left: 70px;
-    top: 30px;
+    left: 190px;
+    top: 110px;
     background: #FEFCFB;
+    transform: scale(0.8);
 } 
 .achievement-cards .content3 span{
     font-size: 20px;
     color: black;
     font-weight: bold;
+}
+.to-do{
+    border: 1px solid #FEFCFB;
+    margin: 300px;
 }
