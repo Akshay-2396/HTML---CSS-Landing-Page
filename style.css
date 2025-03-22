@@ -96,6 +96,7 @@ nav ul.log li a.btn-light {
   position: relative;
   width: 400px;
   gap: 20px;
+  margin-left:-2px;
 }
 .hero-section .left h1 span {
   color: #fa7436;
@@ -108,6 +109,7 @@ nav ul.log li a.btn-light {
   margin-bottom: 200px;
   width: 400px;
   bottom: -60px;
+  margin-left: -2px;
 }
 .hero-section .left .dis {
   padding: 16px 32px;
@@ -608,6 +610,7 @@ nav ul.log li a.btn-light {
   width: 100%;
   padding: 40px;
   background-color: #fefcfb;
+  margin-top: -25px;
 }
 .image {
   margin-top: 50px;
@@ -767,4 +770,38 @@ nav ul.log li a.btn-light {
     margin-bottom: 30px;
     margin-top: -45px;
     }
+/*   
+   next section  */
+
+   .about{
+    margin: 0;
+    width: 100%;
+    padding: 40px;
+    background-color:#f7f8fc;
+   }
+   .left h1{
+    font-family: volkhov;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-left: 200px;
     
+    
+     }
+    .left h1 span{
+     color: #f97316;
+    }
+    .left p{
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+     color: black;
+     width: 456px;
+     margin-left: 200px;
+     line-height: 30px;
+    }
+    .slider2{
+     margin-left: 75px;
+     transform: scale(0.8);
+  
+    }
