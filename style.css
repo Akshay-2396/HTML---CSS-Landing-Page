@@ -917,3 +917,159 @@ nav ul.log li a.btn-light {
     transform: scale(0.7);
     margin-left: 600px;
 }
+
+/* footer section */
+.links{
+    margin: 0;
+    width: 100%;
+    padding: 40px;
+    background-color:#fefcfb;
+    height: 710px;
+  }
+  .mail{
+    border: 1px solid #f97316;
+    border-radius: 15px;
+    background-color:#f97316;
+    color: #f7f8fc;
+    font-family: volkhov;
+    margin-left: 100px;
+    margin-right: 150px;
+    right: 50px;
+    position: relative;
+    height: 300px;
+    width: 800px;
+    left: 140px;
+    z-index: 1;
+  }
+  .mail h2{
+   margin-left: 200px;
+    margin-bottom: -50px;
+    margin-top: -230px;
+    font-size: 32px;
+  }
+.mail h2 span{
+    margin-left: 115px;
+}
+.mail form input{
+    font-family: poppins;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    width: 450px;
+    padding-inline-start: 30px;
+    margin-top: -220px;
+    
+}
+.mail form button{
+    font-family: poppins;
+    background-color: #f97316;
+    color: #f7f8fc;
+    border-radius: 5px;
+    border: none;
+    margin-left: -100px;
+    line-height: 20px;
+    width: 90px;
+    position: relative;
+}
+.mail form img{
+    position: relative;
+    margin-right: -20px;
+    margin-top: -10px;
+    top: 3px;
+    left: 10px;
+    transform: scale(0.8);
+   
+}
+.mail form{
+    position: relative;
+    margin-top: 130px;
+    margin-left: 180px;
+} 
+.mail .tree2{
+position: relative;
+left: 695px;
+bottom: 160px;
+transform: scale(0.8);
+}
+.mail .circle{
+    position: relative;
+    top: 72px;
+    right:180px;
+    transform: scale(0.68);
+}
+.links-left{
+    margin-top: 100px;
+    margin-left: 200px;
+    position: relative;
+    transform: scale(0.9); 
+    z-index: 1;
+}
+.links-left h1{
+    font-family: volkhov;
+    position: relative;
+    font-size:medium;
+    
+}
+.links-left .imglo{
+    position: relative;
+    transform: scale(0.7);
+    top:5px;
+}
+.links-left p{
+    font-family: poppins;
+    font-size: 14px;
+}
+.links-right {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    width: 800px;
+    bottom: 210px;
+    left: 500px;
+    transform: scale(0.75);
+    z-index: 1;
+   
+}
+.links-right ul{
+    
+    font-family: poppins;
+    list-style: none;
+    line-height: 40px;
+}
+.links-right h3{
+margin-left: 37px;
+}
+.copyrights{
+font-size:small;
+line-height: 50px;
+color: #666666;
+}
+.terms{
+    position: relative;
+    font-size:small;
+line-height: 45px;
+margin-left: 725px;
+bottom: 60px;
+width: 300px;
+color: #666666;
+}
+.last{
+    position:relative;
+    border: 1px solid #999999;
+    height: 1px;
+    margin-right: 200px;
+    margin-left: 220px;
+    bottom: 210px;
+    z-index: 1;
+}
+.bottom{
+    position: relative;
+    width: 1350px;
+margin: 0px;
+height: 520px;
+bottom: 510px;
+background-color: #f7f8fc;
+}
+footer{
+    height: 700px;
+}
