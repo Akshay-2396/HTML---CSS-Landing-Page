@@ -614,7 +614,11 @@ nav ul.log li a.btn-light {
 }
 .image {
   margin-top: 50px;
-  margin-left: 950px;
+  margin-left: 850px;
+}
+.best{
+    position: relative;
+    right: 80px;
 }
 .best h1 {
   font-family: volkhov;
@@ -643,6 +647,8 @@ nav ul.log li a.btn-light {
 .city {
   display: flex;
   gap: 20px;
+  transform: scale(1);
+ 
 }
 .city1 {
   border: 1px solid var(--white-color);
