@@ -887,3 +887,33 @@ nav ul.log li a.btn-light {
 .about{
     height: 600px;
 }
+
+.blog{
+    margin: 0;
+  width: 100%;
+  padding: 40px;
+  background-color: #fefcfb;
+}
+.blog h1{
+    font-family: volkhov;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-left: 400px;
+  font-weight: bold;
+  color: black;
+}
+.blog h1 span{
+    color: #f97316;
+}
+.images-place{
+    transform: scale(0.8);
+    display:flex;
+    gap: 50px;
+}
+.images-place p{
+    color: #999999;
+}
+.dot{
+    transform: scale(0.7);
+    margin-left: 600px;
+}
