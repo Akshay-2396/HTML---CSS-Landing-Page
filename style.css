@@ -1071,237 +1071,246 @@ footer {
   height: 700px;
 }
 
-
 /* media query */
-@media(max-width: 1024px){
-  .hero-section{
+@media (max-width: 1024px) {
+  .hero-section {
     flex-direction: column;
     gap: 150px;
     transform: scale(0.9);
-    top:-180px;
+    top: -180px;
     left: -330px;
   }
-  .hero-section .right{
+  .hero-section .right {
     transform: scale(0.8);
     right: -550px;
     top: -550px;
   }
- 
-  .hero-section .left p{
+
+  .hero-section .left p {
     top: 0px;
     right: -18px;
   }
-   .hero-section .left .dis{
+  .hero-section .left .dis {
     top: -180px;
     left: 15px;
-   }
+  }
 
-   .hero-image1{
+  .hero-image1 {
     top: -220px;
   }
-   .hero-image2{
+  .hero-image2 {
     top: -400px;
-    
   }
-  .explorebox{
+  .explorebox {
     margin-top: -210px;
     max-width: 900px;
     margin-left: -1px;
     transform: scale(0.7);
     display: flex;
   }
-   .explorebox{
+  .explorebox {
     position: absolute;
     height: 100px;
-    
-   }
-   .explorebox .btn-light{
-  transform: scale(0.9);
-line-height: 20px;
-top: -10px;
-   }
-   .achievement-cards .content1{
+  }
+  .explorebox .btn-light {
+    transform: scale(0.9);
+    line-height: 20px;
+    top: -10px;
+  }
+  .achievement-cards .content1 {
     position: relative;
     top: -310px;
-    
-   }
-   .achievement-cards .content2{
-   position: relative;
-   top: -300px;
-   right: -500px;
-   }
-   nav {
+  }
+  .achievement-cards .content2 {
+    position: relative;
+    top: -300px;
+    right: -500px;
+  }
+  nav {
     position: relative;
     transform: scale(0.8);
-width: 20px;
-gap: 10px;
-line-height:2px;
-
-   }
-   .main{
+    width: 20px;
+    gap: 10px;
+    line-height: 2px;
+  }
+  .main {
     margin-top: -20px;
-   
-   }
-   .main nav .img{
+  }
+  .main nav .img {
     position: relative;
     top: -2px;
-   } 
-
+  }
 }
 
-@media(max-width:768px){
-  .hero-section{
+@media (max-width: 768px) {
+  .hero-section {
     flex-direction: column;
     gap: 150px;
     transform: scale(0.7);
-    top:-280px;
+    top: -250px;
     left: -225px;
   }
-  .hero-section .right{
-    transform: scale(0.9);
-    right: 50px;
+  .hero-section .right {
+    transform: scale(0.8);
+    right: -510px;
+    top: px;
   }
-  .hero-section .left p{
+  .hero-section .left p {
     top: 0px;
     right: -18px;
   }
-   .hero-section .left .dis{
+  .hero-section .left {
+    transform: scale(1.05);
+    position: relative;
+    right: -10px;
+    top: 80px;
+  }
+  .hero-section .left .dis {
     top: -180px;
     left: 15px;
-   }
+  }
 
-   .hero-image1{
+  .hero-image1 {
     top: -220px;
   }
-   .hero-image2{
+  .hero-image2 {
     top: -400px;
-    
   }
-  .explorebox{
+  .explorebox {
     margin-top: -350px;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: -75px;
     transform: scale(0.7);
-    display: flex;
+    
   }
-   .explorebox{
+  .explorebox {
     position: absolute;
-  width: 530px ;
     height: 100px;
     gap: -800px;
-   }
-   .explorebox .btn-light{
-  transform: scale(0.9);
-line-height: 20px;
-top: -10px;
-   }
-   .achievement-cards .content1{
+  }
+  .explorebox .btn-light {
+    transform: scale(0.9);
+    line-height: 20px;
+    top: -10px;
+  }
+  .achievement-cards .content1 {
     position: relative;
     top: -310px;
-    
-   }
-   .achievement-cards .content2{
-   position: relative;
-   top: -300px;
-   right: -500px;
-   }
-   nav {
+  }
+  .achievement-cards .content2 {
+    position: relative;
+    top: -300px;
+    right: -500px;
+  }
+  nav {
     transform: scale(0.7);
-width: 20px;
-flex-wrap: wrap;
-gap: 10px;
-   }
-   .main{
+    width: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 20px;
+  }
+  .main {
     margin-top: -30px;
-   }
-   .main nav .img{
+  }
+  .main nav .img {
     position: relative;
     top: -38px;
     left: 90px;
-  
-   } 
-
+  }
 }
 
-
-@media(max-width: 425px){
+@media (max-width: 425px) {
+  
   .hero-section{
+    position: relative;
+    transform: scale(0.5);
+  }
+  .hero-section .right {
+    top: -320px;
+right: -350px;
+  }
+  .hero-section .left{
+    top: -30px;
+    right: -300px;
+  }
+  .explorebox{
+    position: relative;
+   transform: scale(0.5);
+   left: -115px;
+   bottom: -60px;
+  }
+}
+  /* .hero-section {
     flex-direction: column;
     transform: scale(0.7);
-    top:-280px;
-    left:1px;
+    top: -280px;
+    left: 1px;
   }
-  
-  .hero-section .right{
+
+  .hero-section .right {
     transform: scale(0.85);
     right: 115px;
   }
-  .hero-section .left{
+  .hero-section .left h1{
+
+  }
+  .hero-section .left {
     position: relative;
     left: -80px;
   }
-  .hero-section .left p{
+  .hero-section .left p {
     top: 0px;
   }
-   .hero-section .left .dis{
+  .hero-section .left .dis {
     top: -180px;
-   }
+  }
 
-   .hero-image1{
+  .hero-image1 {
     top: -220px;
   }
-   .hero-image2{
+  .hero-image2 {
     top: -400px;
-    
   }
-  .explorebox{
+  .explorebox {
     margin-top: -350px;
     max-width: 600px;
     margin-left: -75px;
     transform: scale(0.7);
     display: flex;
   }
-   .explorebox{
+  .explorebox {
     position: absolute;
-  width: 530px ;
+    width: 530px;
     height: 100px;
     gap: -800px;
-   }
-   .explorebox .btn-light{
-  transform: scale(0.9);
-line-height: 20px;
-top: -10px;
-   }
-   .achievement-cards .content1{
+  }
+  .explorebox .btn-light {
+    transform: scale(0.9);
+    line-height: 20px;
+    top: -10px;
+  }
+  .achievement-cards .content1 {
     position: relative;
     top: -310px;
-    
-   }
-   .achievement-cards .content2{
-   position: relative;
-   top: -300px;
-   right: -500px;
-   }
-   nav {
+  }
+  .achievement-cards .content2 {
+    position: relative;
+    top: -300px;
+    right: -500px;
+  }
+  nav {
     transform: scale(0.7);
-width: 20px;
-flex-wrap: wrap;
-gap: 10px;
-   }
-   .main{
+    width: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main {
     margin-top: -30px;
-   }
-   .main nav .img{
+  }
+  .main nav .img {
     position: relative;
     top: -38px;
     left: 90px;
-  
-   } 
+  } 
+}*/
 
-}
-
-/* @media(max-width: 1024px){
-.container{
-flex-direction: column;  
-}
-} */
