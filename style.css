@@ -1077,14 +1077,16 @@ footer {
   .hero-section{
     flex-direction: column;
     gap: 150px;
-    transform: scale(0.7);
-    top:-280px;
-    left: -350px;
+    transform: scale(0.9);
+    top:-180px;
+    left: -330px;
   }
   .hero-section .right{
-    transform: scale(0.);
-    right: 40px;
+    transform: scale(0.8);
+    right: -550px;
+    top: -550px;
   }
+ 
   .hero-section .left p{
     top: 0px;
     right: -18px;
@@ -1102,17 +1104,16 @@ footer {
     
   }
   .explorebox{
-    margin-top: -350px;
-    max-width: 600px;
-    margin-left: -75px;
+    margin-top: -210px;
+    max-width: 900px;
+    margin-left: -1px;
     transform: scale(0.7);
     display: flex;
   }
    .explorebox{
     position: absolute;
-  width: 530px ;
     height: 100px;
-    gap: -800px;
+    
    }
    .explorebox .btn-light{
   transform: scale(0.9);
@@ -1130,19 +1131,20 @@ top: -10px;
    right: -500px;
    }
    nav {
-    transform: scale(0.7);
+    position: relative;
+    transform: scale(0.8);
 width: 20px;
-flex-wrap: wrap;
 gap: 10px;
+line-height:2px;
+
    }
    .main{
-    margin-top: -30px;
+    margin-top: -20px;
+   
    }
    .main nav .img{
     position: relative;
-    top: -38px;
-    left: 90px;
-  
+    top: -2px;
    } 
 
 }
@@ -1222,7 +1224,7 @@ gap: 10px;
 }
 
 
-@media(max-width:425px){
+@media(max-width: 425px){
   .hero-section{
     flex-direction: column;
     transform: scale(0.7);
@@ -1297,3 +1299,9 @@ gap: 10px;
    } 
 
 }
+
+/* @media(max-width: 1024px){
+.container{
+flex-direction: column;  
+}
+} */
