@@ -1522,6 +1522,72 @@ footer {
   }
 }
 
+@media (max-width: 1024px){
+  .left h1{
+   transform: scale(0.7);
+    position: relative;
+    right: 100px;
+   
+  }
+  .left p{
+    transform: scale(0.8);
+    position: relative;
+    right: 70px;
+  }
+  .right{
+    transform: scale(0.9);
+    width: 1300px;
+     position: relative;
+     right: 130px;
+     top: -20px;
+   }
+   .slider2{
+    transform: scale(0.6);
+    position: relative;
+    top: -20px;
+    left: -90px;
+  }
+  .about .flight1{
+    position: relative;
+    left: 800px;
+    top:-900px;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 768px){
+  .left h1{
+    transform: scale(0.8);
+    position: relative;
+    top: -100px;
+    right: 80px;
+  }
+  .left p{
+    transform: scale(0.9);
+    position: relative;
+    top: -130px;
+    right: 100px;
+  }
+  .right{
+    width: 1300px;
+     position: relative;
+     right: 420px;
+     top: 90px;
+     transform: scale(0.9);
+   }
+   .slider2{
+    transform: scale(0.6);
+    position: relative;
+    top: -140px;
+    left: -90px;
+  }
+  .about .flight1{
+    position: relative;
+    left: 500px;
+    top:-900px;
+    transform: scale(0.6);
+  }
+}
 @media (max-width: 425px){
   .left h1{
     transform: scale(0.7);
