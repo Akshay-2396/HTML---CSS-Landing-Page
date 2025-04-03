@@ -1226,13 +1226,26 @@ footer {
     transform: scale(0.5);
   }
   .hero-section .right {
-    top: -320px;
-right: -350px;
+    top: -300px;
+   right: -600px;
+   position: relative;
   }
+  .hero-section .left .dis{
+    top: -300px;
+    position: relative;
+   
+  }
+
   .hero-section .left{
-    top: -30px;
-    right: -300px;
+    top: 90px;
+    right: -290px;
   }
+  .hero-section .left p{
+    position: relative;
+    top: -120px;
+    right: 10px;
+  }
+  
  
   .explorebox{
     position: relative;
@@ -1506,5 +1519,38 @@ right: -350px;
     position: relative;
     right: 830px;
     top: 950px;
+  }
+}
+
+@media (max-width: 425px){
+  .left h1{
+    transform: scale(0.7);
+    position: relative;
+    top: -100px;
+    right: 50px;
+  }
+  .left p{
+    transform: scale(0.9);
+    position: relative;
+    top: -130px;
+    right: 85px;
+  }
+  .slider2{
+    transform: scale(0.6);
+    position: relative;
+    top: -140px;
+    right: 10px;
+  }
+  .right{
+   width: 1300px;
+    position: relative;
+    right: 630px;
+    transform: scale(0.75);
+  }
+  .about .flight1{
+    position: relative;
+    left: 250px;
+    top:-920px;
+    transform: scale(0.5);
   }
 }
