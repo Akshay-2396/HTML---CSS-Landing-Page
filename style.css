@@ -1386,6 +1386,7 @@ right: -350px;
   }
   .place{
     transform: scale(0.5);
+    left: 5px;
   }
   .mad,.mad2{
     position: relative;
