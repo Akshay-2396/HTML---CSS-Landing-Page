@@ -1233,6 +1233,7 @@ right: -350px;
     top: -30px;
     right: -300px;
   }
+ 
   .explorebox{
     position: relative;
    transform: scale(0.5);
@@ -1411,5 +1412,99 @@ right: -350px;
     position: relative;
     top: 125px;
     right: 200px;
+  }
+}
+
+@media (max-width: 1024px){
+ 
+  .best h1{
+    width: 800px;
+    position: relative;
+    right: 150px;
+  }
+  .best p{
+    right: 150px;
+    position: relative;
+  }
+  .plan .image{
+    position: relative;
+    right: 150px;
+    transform: scale(0.8);
+  }
+  .city{
+    right: 170px;
+    position: relative;
+  }
+}
+
+
+@media (max-width: 768px){
+ 
+  .best h1{
+    width: 800px;
+    position: relative;
+    right: 250px;
+  }
+  .best p{
+    transform: scale(0.9);
+    right: 250px;
+    position: relative;
+  }
+  .plan .image{
+    position: relative;
+    right: 300px;
+    transform: scale(0.8);
+  }
+  .city{
+    transform: scale(0.8);
+    right: 230px;
+    position: relative;
+  }
+}
+
+@media (max-width: 425px){
+  .plan{
+    height: 950px;
+  }
+  .best h1{
+    width: 800px;
+    transform: scale(0.8);
+    position: relative;
+    right: 480px;
+  }
+  .best p{
+    transform: scale(0.8);
+    right: 430px;
+    position: relative;
+  }
+  .plan .image{
+    position: relative;
+    right: 560px;
+    transform: scale(0.6);
+  }
+  .city{
+    transform: scale(0.6);
+    position: relative;
+    left: 1px;
+  }
+  .city1{
+    position: relative;
+    right: 150px;
+    top: -150px;
+  }
+  .city2{
+    position: relative;
+    right: 440px;
+    top: 200px;
+  }
+  .city3{
+    position: relative;
+    right: 730px;
+    top: 550px;
+  }
+  .slider1{
+    position: relative;
+    right: 830px;
+    top: 950px;
   }
 }
