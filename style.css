@@ -1177,7 +1177,7 @@ footer {
     top: -400px;
   }
   .explorebox {
-    margin-top: -350px;
+    margin-top: -330px;
     max-width: 800px;
     margin-left: -75px;
     transform: scale(0.7);
@@ -1238,79 +1238,77 @@ right: -350px;
    transform: scale(0.5);
    left: -115px;
    bottom: -60px;
+   
   }
 }
-  /* .hero-section {
-    flex-direction: column;
-    transform: scale(0.7);
-    top: -280px;
-    left: 1px;
-  }
 
-  .hero-section .right {
-    transform: scale(0.85);
-    right: 115px;
-  }
-  .hero-section .left h1{
+@media (max-width: 1024px){
+ .content{
+  position: relative;
+  right: 120px;
+ }
+ .cards{
+  position: relative;
+  right: 125px;
+ }
+}
 
-  }
-  .hero-section .left {
-    position: relative;
-    left: -80px;
-  }
-  .hero-section .left p {
-    top: 0px;
-  }
-  .hero-section .left .dis {
-    top: -180px;
-  }
-
-  .hero-image1 {
-    top: -220px;
-  }
-  .hero-image2 {
-    top: -400px;
-  }
-  .explorebox {
-    margin-top: -350px;
-    max-width: 600px;
-    margin-left: -75px;
-    transform: scale(0.7);
-    display: flex;
-  }
-  .explorebox {
-    position: absolute;
-    width: 530px;
-    height: 100px;
-    gap: -800px;
-  }
-  .explorebox .btn-light {
+@media (max-width: 768px){
+  .content{
+    margin-top: 15px;
     transform: scale(0.9);
-    line-height: 20px;
-    top: -10px;
-  }
-  .achievement-cards .content1 {
+    right: 250px;
     position: relative;
-    top: -310px;
+    top: -100px;
   }
-  .achievement-cards .content2 {
+  .content .img1{
+    transform: scale(0.8);
+    right: 70px;
     position: relative;
-    top: -300px;
-    right: -500px;
   }
-  nav {
-    transform: scale(0.7);
-    width: 20px;
-    flex-wrap: wrap;
-    gap: 10px;
+  .cards{
+    
+    transform: scale(0.5);
+    left: -375px;
+    top: -100px;
+    position:relative ;
   }
-  .main {
-    margin-top: -30px;
-  }
-  .main nav .img {
-    position: relative;
-    top: -38px;
-    left: 90px;
-  } 
-}*/
+ 
+}
 
+@media (max-width: 425px){
+  .content{
+    transform: scale(0.6);
+    right: 452px;
+    position: relative;
+    top: -100px;
+  }
+  .content .img1{
+    transform: scale(0.6);
+    right: 95px;
+    position: relative;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(0.4);
+    left: -525px;
+    top: -60px;
+    position: relative;
+  }
+  .card2{
+    
+    transform: scale(1);
+    left: -1900px;
+    position: relative ;
+
+  }
+  .card3{
+    
+    transform: scale(1);
+    left: -1900px;
+    position: relative ;
+
+  }
+}
