@@ -1855,7 +1855,7 @@ position: relative;
     height: 600px;
   }
 }
-/* @media (max-width: 425px){
+@media (max-width: 425px){
 
  html,body{
   position: relative;
@@ -1878,4 +1878,4 @@ position: relative;
    overflow-x: hidden;
    
  } 
- } */
+ }
