@@ -1071,28 +1071,36 @@ footer {
   height: 700px;
 }
 
-/* media query */
+
+
 @media (max-width: 1024px) {
   .hero-section {
     flex-direction: column;
     gap: 150px;
     transform: scale(0.9);
     top: -180px;
-    left: -330px;
+    left:-330px;
   }
   .hero-section .right {
-    transform: scale(0.8);
-    right: -550px;
-    top: -550px;
+    transform: scale(0.9);
+    right: -750px;
+    position: relative;
+    top: -500px;
+  }
+  .hero-section .left h1{
+    position: relative;
+    right:20px;
   }
 
   .hero-section .left p {
     top: 0px;
-    right: -18px;
+    position: relative;
+    left: -0px;
   }
   .hero-section .left .dis {
     top: -180px;
-    left: 15px;
+    left: 30px;
+    position: relative;
   }
 
   .hero-image1 {
@@ -1120,6 +1128,7 @@ footer {
   .achievement-cards .content1 {
     position: relative;
     top: -310px;
+    left: 260px;
   }
   .achievement-cards .content2 {
     position: relative;
@@ -1152,12 +1161,19 @@ footer {
   }
   .hero-section .right {
     transform: scale(0.8);
-    right: -510px;
-    top: px;
+    right: -700px;
+    position: relative;
+    top: -550px;
+  }
+  .hero-section .left h1{
+    position: relative;
+    top: 20px;
+    right: 25px;
   }
   .hero-section .left p {
     top: 0px;
-    right: -18px;
+    position: relative;
+    right: 2px;
   }
   .hero-section .left {
     transform: scale(1.05);
@@ -1240,11 +1256,17 @@ footer {
     top: 90px;
     right: -290px;
   }
+  .hero-section .left h1{
+    position: relative;
+    top: -90px;
+    left: -50px;
+  }
   .hero-section .left p{
     position: relative;
     top: -120px;
     right: 10px;
   }
+  
   
  
   .explorebox{
@@ -1684,4 +1706,64 @@ footer {
     right: 470px;
     top: 50px;
   }
+}
+
+@media (max-width: 425px){
+  footer{
+    position: relative;
+    top: 200px;
+    
+  } 
+  .links{
+    top: -200px;
+position: relative;
+    height:550px; 
+  }
+  .mail{
+    transform: scale(0.5);
+    position: relative;
+    top: -10px;
+    left: -330px;
+  }
+  .links-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -130px;
+    top: -530px;
+  }
+  .links-left{
+    top: -170px;
+  }
+  .bottom{
+    width: 422px;
+  }
+  .last,.copyrights{
+    position: relative;
+    width: 800px;
+    right: -20px;
+  }
+  .last{
+    transform: scale(0.5);
+    top: -600px;
+    position: relative;
+    left: -450px;
+  }
+  .last, .terms{
+    position: relative;
+    right: 80px;
+    
+  }
+  footer{
+    position: relative;
+    height: 600px;
+  }
+}
+@media (max-width: 425px){
+
+ html,body{
+  position: relative;
+  overflow-x: hidden;
+  
+} 
 }
